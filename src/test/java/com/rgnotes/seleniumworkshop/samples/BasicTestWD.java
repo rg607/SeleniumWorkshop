@@ -32,7 +32,7 @@ public class BasicTestWD extends WebDriverFactory {
         });
 
         System.out.println("Page title is: " + driver.getTitle());       
-        System.out.println("Is this change getting committed to GitHub");
+        //System.out.println("Is this change getting committed to GitHub");
     }
 
     @Test
