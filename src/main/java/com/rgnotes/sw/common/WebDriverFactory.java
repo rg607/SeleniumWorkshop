@@ -1,4 +1,4 @@
-package com.rgnotes.seleniumworkshop.common;
+package com.rgnotes.sw.common;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,9 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
-import com.rgnotes.seleniumworkshop.listeners.ScreenshotListener;
 import org.testng.annotations.Listeners;
+
+import com.rgnotes.sw.listeners.ScreenshotListener;
 
 @Listeners(ScreenshotListener.class)
 public class WebDriverFactory {
