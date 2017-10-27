@@ -1,4 +1,4 @@
-package com.rgnotes.seleniumworkshop.common;
+package com.rgnotes.sw.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;

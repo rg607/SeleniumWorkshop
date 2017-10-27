@@ -1,13 +1,13 @@
-package com.rgnotes.seleniumworkshop.common;
+package com.rgnotes.sw.common;
 
-import com.rgnotes.seleniumworkshop.common.WebDriverType;
+import com.rgnotes.sw.common.WebDriverType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 
-import static com.rgnotes.seleniumworkshop.common.WebDriverType.FIREFOX;
-import static com.rgnotes.seleniumworkshop.common.WebDriverType.valueOf;
+import static com.rgnotes.sw.common.WebDriverType.FIREFOX;
+import static com.rgnotes.sw.common.WebDriverType.valueOf;
 
 public class WebDriverThread {
 	

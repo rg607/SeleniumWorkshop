@@ -1,4 +1,4 @@
-package com.rgnotes.seleniumworkshop.samples;
+package com.rgnotes.sw.samples;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.testng.annotations.Test;
 
-import com.rgnotes.seleniumworkshop.common.WebDriverFactory;
+import com.rgnotes.sw.common.WebDriverFactory;
 
 public class BasicTestWD extends WebDriverFactory {
 	

@@ -1,4 +1,4 @@
-package com.rgnotes.seleniumworkshop.common;
+package com.rgnotes.sw.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 
-import com.rgnotes.seleniumworkshop.common.WebDriverSetup;
+import com.rgnotes.sw.common.WebDriverSetup;
 
 import java.util.Arrays;
 import java.util.HashMap;
