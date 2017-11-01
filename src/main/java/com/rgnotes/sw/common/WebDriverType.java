@@ -23,7 +23,7 @@ public enum WebDriverType implements WebDriverSetup {
         }
 
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities) {
-        	System.setProperty("webdriver.gecko.driver", "webdrivers\\geckodriver.exe");
+        	System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\drivers\\geckodriver.exe");
             return new FirefoxDriver(capabilities);
         }
     },
@@ -38,7 +38,7 @@ public enum WebDriverType implements WebDriverSetup {
         }
 
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities) {
-        	System.setProperty("webdriver.chrome.driver", "webdrivers\\chromedriver.exe");
+        	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\drivers\\chromedriver.exe");
             return new ChromeDriver(capabilities);
         }            
     },
